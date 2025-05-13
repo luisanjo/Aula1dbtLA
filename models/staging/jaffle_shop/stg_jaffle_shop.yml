@@ -2,8 +2,10 @@ version: 2
 
 models:
   - name: stg_jaffle:shop__clientes
+    description: Tabela dos clientes da loja jaffle_shop
     columns:
       - name: customer_id
+        description: ID único do cliente
         tests:
           - unique
           - not_null
